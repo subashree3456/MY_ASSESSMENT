@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+}
+
+.table-id {
+    height: 640px;
+    width: 100%;
+    /* zoom  in */
+    object-fit: cover;
+  }
+
+  .table-name {
+    font-size: 24px;
+    margin: 0;
+   color: #fff;
+  }
+
+  .table-specs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+ 
+  }
+
+
+
+  .table-container {
+    /* background-color: orange; */
+    height : min-content;
+     width: 340px;
+     
+   }
+
+
+   .table-list{
+    display: flex;
+    gap:1rem;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    object-fit: cover;
+  }
+
+
+.table-value{
+    color:#fff;
+    padding-top :2rem;
+}
+
+
+
